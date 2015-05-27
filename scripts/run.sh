@@ -25,12 +25,15 @@ TCPlog=data/tcp.log
 
 plot=plot-$rtt-$shape.png
 
+echo "Started at" $start
+
 # Run experiment and scripts.
+echo "Running simulations..."
 perl -w run.pl $RCPin $RCPlog $TCPin $TCPlog $capacity $rtt $load $shape $mean
 perl -w average.pl $RCPin $RCPout
 perl -w average.pl $TCPin $TCPout
 
+echo "Plotting data"
 python plot.py $RCPout $TCPout $plot $capacity $rtt $load $shape $mean
 
-echo "Started at" $start
 echo "Ended at" `date`
