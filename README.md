@@ -10,8 +10,9 @@ Right Metric for Congestion Control", by Nandita Dukkipati and Nick McKeown.
 ### System Requirements
 
 We have provided a [VM](http://cs.stanford.edu/~agong/cs244-vm.tar.gz) which you
-can run locally, or an Amazon EC2 AMI called "CS244-2015-RCP" that you can run.
-Both of these contain all the code and setup needed for the experiment.
+can run locally, or an Amazon EC2 AMI called "CS244-2015-RCP" in the US West
+Oregon cluster that you can run. Both of these contain all the code and setup
+needed for the experiment.
 
 However, if you would like to reproduce *everything* on your own, you can
 follow the "Installation and Reproduction Instructions" below.
@@ -54,7 +55,7 @@ follow the "Installation and Reproduction Instructions" below.
 ### Generating Results
 
 This will take about 1-2 hours on an Ubuntu 14.04 VM with 4 GB of RAM on a host
-OS with a 1.8GHz Intel i7 processor, or 30-60 minutes on a 2.6Ghz Intel i5. On
+OS with a 1.8GHz Intel i7 processor, or 30-60 minutes on a 2.6GHz Intel i5. On
 an Amazon EC2 c3.large instance, it will take about 20-40 minutes.
 
     cd ~/cs244-rcp/scripts
