@@ -54,8 +54,8 @@ follow the "Installation and Reproduction Instructions" below.
 ### Generating Results
 
 This will take about 1-2 hours on an Ubuntu 14.04 VM with 4 GB of RAM on a host
-OS with a 2.4GHz Intel i7 processor. On an Amazon EC2 c3.large instance, it
-will take about 20-40 minutes.
+OS with a 1.8GHz Intel i7 processor, or 30-60 minutes on a 2.6Ghz Intel i5. On
+an Amazon EC2 c3.large instance, it will take about 20-40 minutes.
 
     cd ~/cs244-rcp/scripts
     chmod +x run.sh
