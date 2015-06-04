@@ -42,6 +42,7 @@ do
 done
 
 echo "Running simulations for different Pareto shapes"
+rtt=0.1
 for shape in ${shapel[@]}
 do
   echo "Shape $shape"
